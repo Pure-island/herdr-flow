@@ -1,0 +1,86 @@
+{
+  "id": "root",
+  "type": "column",
+  "titlebar": "none",
+  "traffic_lights": [14, 13],
+  "theme": "flow",
+  "preview": "layouts/flow.svg",
+  "toast": "flow",
+  "background": "canvas",
+  "terminal_padding": [16, 18],
+  "children": [
+    {
+      "id": "topbar",
+      "type": "block",
+      "size": { "px": 40 },
+      "window_drag": true,
+      "content": { "mod": "flow", "props": { "role": "bar" } }
+    },
+    {
+      "id": "workspace",
+      "type": "row",
+      "padding": [6, 8],
+      "gap": 8,
+      "resizable": true,
+      "children": [
+        {
+          "id": "sidebar",
+          "type": "block",
+          "hidden": true,
+          "size": { "px": 332 },
+          "min": 280,
+          "max": 460,
+          "content": { "mod": "flow", "props": { "role": "studio" } }
+        },
+        {
+          "id": "main",
+          "type": "block",
+          "content": {
+            "tab": "active",
+            "pane": {
+              "gap": 8,
+              "radius": 10,
+              "background": "background",
+              "lone": true,
+              "border": { "width": 1, "color": "border" },
+              "focus": { "width": 1, "color": "accent" },
+              "header": {
+                "content": { "mod": "flow", "props": { "role": "pane" } },
+                "height": 28,
+                "position": "top",
+                "reveal": "hover"
+              }
+            }
+          }
+        },
+        {
+          "id": "panel",
+          "type": "column",
+          "hidden": true,
+          "size": { "px": 368 },
+          "min": 280,
+          "max": 860,
+          "children": [
+            {
+              "id": "panel-body",
+              "type": "stack",
+              "active": "changes",
+              "children": [
+                {
+                  "id": "changes",
+                  "type": "block",
+                  "content": { "mod": "changes" }
+                },
+                {
+                  "id": "files",
+                  "type": "block",
+                  "content": { "mod": "files" }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

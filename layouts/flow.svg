@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <rect width="320" height="200" rx="8" fill="#0b0d10"/>
+  <!-- top ambient bar -->
+  <rect x="0" y="0" width="320" height="20" fill="#0e1116"/>
+  <rect x="0" y="0" width="210" height="2" fill="#63a4ff"/>
+  <rect x="0" y="19.5" width="320" height="0.5" fill="#202631"/>
+  <!-- project pill + tabs -->
+  <rect x="8" y="5" width="46" height="10" rx="3" fill="#1c222c" stroke="#2b3342" stroke-width="0.6"/>
+  <circle cx="13" cy="10" r="2" fill="#56b886"/>
+  <rect x="18" y="8.5" width="28" height="3" rx="1.5" fill="#e4e7ec"/>
+  <rect x="58" y="5" width="34" height="10" rx="3" fill="#232b38"/>
+  <rect x="95" y="5" width="24" height="10" rx="3" fill="#14181f"/>
+  <!-- center flow anchor -->
+  <rect x="128" y="4.5" width="72" height="11" rx="5.5" fill="#171c24" stroke="#2b3342" stroke-width="0.6"/>
+  <circle cx="135" cy="10" r="2" fill="#63a4ff"/>
+  <rect x="140" y="8.5" width="36" height="3" rx="1.5" fill="#9aa3b2"/>
+  <rect x="181" y="7.5" width="14" height="5" rx="2.5" fill="#63a4ff" fill-opacity="0.25"/>
+  <!-- right agent stow pill -->
+  <rect x="228" y="5" width="54" height="10" rx="5" fill="#e59e45" fill-opacity="0.16" stroke="#e59e45" stroke-opacity="0.5" stroke-width="0.6"/>
+  <circle cx="234" cy="10" r="2" fill="#e59e45"/>
+  <rect x="239" y="8.5" width="36" height="3" rx="1.5" fill="#e4e7ec"/>
+  <!-- window controls -->
+  <circle cx="294" cy="10" r="2" fill="#687283"/>
+  <circle cx="302" cy="10" r="2" fill="#687283"/>
+  <circle cx="310" cy="10" r="2" fill="#687283"/>
+  <!-- studio sidebar -->
+  <rect x="6" y="25" width="76" height="169" rx="6" fill="#14181f" stroke="#202631" stroke-width="0.8"/>
+  <rect x="12" y="32" width="64" height="32" rx="4" fill="#1c222c"/>
+  <rect x="17" y="37" width="30" height="4" rx="1.5" fill="#63a4ff"/>
+  <rect x="17" y="45" width="44" height="6" rx="2" fill="#e4e7ec"/>
+  <rect x="17" y="55" width="54" height="3" rx="1.5" fill="#63a4ff" fill-opacity="0.5"/>
+  <rect x="12" y="71" width="64" height="10" rx="3" fill="#1c222c"/>
+  <rect x="12" y="85" width="64" height="10" rx="3" fill="#14181f"/>
+  <rect x="12" y="99" width="64" height="10" rx="3" fill="#14181f"/>
+  <!-- heatmap mini preview -->
+  <g fill="#56b886" fill-opacity="0.7">
+    <rect x="14" y="156" width="5" height="5" rx="1"/><rect x="21" y="156" width="5" height="5" rx="1" fill-opacity="0.3"/>
+    <rect x="28" y="156" width="5" height="5" rx="1"/><rect x="35" y="156" width="5" height="5" rx="1" fill-opacity="0.9"/>
+    <rect x="42" y="156" width="5" height="5" rx="1" fill-opacity="0.2"/><rect x="49" y="156" width="5" height="5" rx="1"/>
+    <rect x="56" y="156" width="5" height="5" rx="1" fill-opacity="0.85"/><rect x="63" y="156" width="5" height="5" rx="1" fill-opacity="0.4"/>
+    <rect x="14" y="163" width="5" height="5" rx="1" fill-opacity="0.4"/><rect x="21" y="163" width="5" height="5" rx="1"/>
+    <rect x="28" y="163" width="5" height="5" rx="1" fill-opacity="0.9"/><rect x="35" y="163" width="5" height="5" rx="1" fill-opacity="0.5"/>
+    <rect x="42" y="163" width="5" height="5" rx="1"/><rect x="49" y="163" width="5" height="5" rx="1" fill-opacity="0.95"/>
+    <rect x="56" y="163" width="5" height="5" rx="1" fill-opacity="0.35"/><rect x="63" y="163" width="5" height="5" rx="1"/>
+  </g>
+  <!-- calm terminal canvas -->
+  <rect x="88" y="25" width="226" height="169" rx="7" fill="#111418" stroke="#63a4ff" stroke-opacity="0.55" stroke-width="0.9"/>
+  <rect x="98" y="37" width="68" height="3.5" rx="1.5" fill="#63a4ff"/>
+  <rect x="98" y="47" width="132" height="3.5" rx="1.5" fill="#9aa3b2" fill-opacity="0.7"/>
+  <rect x="98" y="56" width="108" height="3.5" rx="1.5" fill="#9aa3b2" fill-opacity="0.5"/>
+  <rect x="98" y="65" width="144" height="3.5" rx="1.5" fill="#56b886" fill-opacity="0.75"/>
+  <rect x="98" y="75" width="82" height="3.5" rx="1.5" fill="#9aa3b2" fill-opacity="0.4"/>
+</svg>

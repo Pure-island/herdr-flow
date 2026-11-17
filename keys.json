@@ -1,0 +1,10 @@
+{
+  "layout:flow": {
+    "ctrl-shift-g": "flow.projects",
+    "ctrl-shift-a": "flow.agents",
+    "ctrl-shift-j": "flow.triage",
+    "ctrl-shift-i": "flow.capture",
+    "ctrl-shift-m": "flow.notes",
+    "ctrl-shift-d": "flow.toggle_focus"
+  }
+}
